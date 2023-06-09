@@ -28,6 +28,9 @@ public class Advisor {
     @Column(nullable = false)
     private String email;
 
+    //@OneToMany
+    //protected Client client;
+
     protected Advisor() {
 
     }
